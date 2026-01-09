@@ -68,46 +68,8 @@ npm run dev
 ### High-Level Overview
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    Chrome Extension                         │
-│                                                             │
-│  ┌───────────────────────────────────────────────────┐    │
-│  │              manifest.json                         │    │
-│  │  - Extension configuration                         │    │
-│  │  - Permissions & host access                       │    │
-│  └───────────────────────────────────────────────────┘    │
-│                         │                                   │
-│                         ▼                                   │
-│  ┌───────────────────────────────────────────────────┐    │
-│  │          Content Script Layer                      │    │
-│  │         (contentScript.jsx)                        │    │
-│  │                                                     │    │
-│  │  • DOM Observation (MutationObserver)             │    │
-│  │  • Reply Field Detection                          │    │
-│  │  • Tweet Text Extraction                          │    │
-│  │  • Button Injection Management                    │    │
-│  │  • Text Insertion Logic                           │    │
-│  └───────────────────────────────────────────────────┘    │
-│                         │                                   │
-│           ┌─────────────┴─────────────┐                   │
-│           ▼                           ▼                    │
-│  ┌─────────────────┐        ┌─────────────────┐          │
-│  │  injectButton   │        │ TweetReplyButton│          │
-│  │  (Bridge Layer) │        │  (UI Component) │          │
-│  │                 │        │                 │          │
-│  │ • React mount   │        │ • React button  │          │
-│  │ • DOM insertion │        │ • Click handler │          │
-│  └─────────────────┘        └─────────────────┘          │
-└─────────────────────────────────────────────────────────────┘
-                         │
-                         ▼
-              ┌──────────────────────┐
-              │   Twitter/X DOM      │
-              │   - Reply fields     │
-              │   - Tweet content    │
-              │   - Toolbars         │
-              └──────────────────────┘
-```
+<img width="601" height="685" alt="HLD" src="https://github.com/user-attachments/assets/1fb25ffe-8d22-4d1d-986e-862fc73993f8" />
+
 
 ### Component Architecture
 
