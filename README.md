@@ -11,6 +11,11 @@ A Chrome extension that automatically injects a button into Twitter/X reply fiel
 - 🔒 Privacy-focused: No data collection, no external requests
 - ⚡ Fast and lightweight (47KB gzipped)
 
+- <img width="778" height="607" alt="image" src="https://github.com/user-attachments/assets/4cf85771-9409-48f3-a4ca-671dc7359c3d" />
+<img width="744" height="491" alt="image" src="https://github.com/user-attachments/assets/1b02b002-4f21-418c-a819-14f399a97f6f" />
+
+
+
 ## 📦 Installation
 
 ### For Users
