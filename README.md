@@ -2,6 +2,9 @@
 
 A Chrome extension that automatically injects a button into Twitter/X reply fields, allowing users to instantly fetch and insert the original tweet's text into their reply with a single click.
 
+<img width="700" height="607" alt="image" src="https://github.com/user-attachments/assets/4cf85771-9409-48f3-a4ca-671dc7359c3d" />
+<img width="690" height="491" alt="image" src="https://github.com/user-attachments/assets/1b02b002-4f21-418c-a819-14f399a97f6f" />
+
 ## 🚀 Features
 
 - ✨ Automatically detects Twitter/X reply composition fields
@@ -10,9 +13,6 @@ A Chrome extension that automatically injects a button into Twitter/X reply fiel
 - 🎯 Seamless integration with Twitter's UI
 - 🔒 Privacy-focused: No data collection, no external requests
 - ⚡ Fast and lightweight (47KB gzipped)
-
-<img width="700" height="607" alt="image" src="https://github.com/user-attachments/assets/4cf85771-9409-48f3-a4ca-671dc7359c3d" />
-<img width="690" height="491" alt="image" src="https://github.com/user-attachments/assets/1b02b002-4f21-418c-a819-14f399a97f6f" />
 
 
 
